@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70919ACA1B14471400759FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70919AC91B14471400759FF8 /* AppDelegate.swift */; };
+		70919ACC1B14471500759FF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70919ACB1B14471400759FF8 /* ViewController.swift */; };
+		70919ACF1B14471500759FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70919ACD1B14471500759FF8 /* Main.storyboard */; };
+		70919AD11B14471500759FF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70919AD01B14471500759FF8 /* Images.xcassets */; };
+		70919AD41B14471500759FF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70919AD21B14471500759FF8 /* LaunchScreen.xib */; };
+		70919AE01B14471500759FF8 /* GPP_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70919ADF1B14471500759FF8 /* GPP_CalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		70919ADA1B14471500759FF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 70919ABC1B14471400759FF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 70919AC31B14471400759FF8;
+			remoteInfo = "GPP Calculator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		70919AC41B14471400759FF8 /* GPP Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPP Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70919AC81B14471400759FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70919AC91B14471400759FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		70919ACB1B14471400759FF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70919ACE1B14471500759FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70919AD01B14471500759FF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70919AD31B14471500759FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		70919AD91B14471500759FF8 /* GPP CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPP CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70919ADE1B14471500759FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70919ADF1B14471500759FF8 /* GPP_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPP_CalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70919AC11B14471400759FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70919AD61B14471500759FF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70919ABB1B14471400759FF8 = {
+			isa = PBXGroup;
+			children = (
+				70919AC61B14471400759FF8 /* GPP Calculator */,
+				70919ADC1B14471500759FF8 /* GPP CalculatorTests */,
+				70919AC51B14471400759FF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70919AC51B14471400759FF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70919AC41B14471400759FF8 /* GPP Calculator.app */,
+				70919AD91B14471500759FF8 /* GPP CalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70919AC61B14471400759FF8 /* GPP Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				70919AC91B14471400759FF8 /* AppDelegate.swift */,
+				70919ACB1B14471400759FF8 /* ViewController.swift */,
+				70919ACD1B14471500759FF8 /* Main.storyboard */,
+				70919AD01B14471500759FF8 /* Images.xcassets */,
+				70919AD21B14471500759FF8 /* LaunchScreen.xib */,
+				70919AC71B14471400759FF8 /* Supporting Files */,
+			);
+			path = "GPP Calculator";
+			sourceTree = "<group>";
+		};
+		70919AC71B14471400759FF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70919AC81B14471400759FF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70919ADC1B14471500759FF8 /* GPP CalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				70919ADF1B14471500759FF8 /* GPP_CalculatorTests.swift */,
+				70919ADD1B14471500759FF8 /* Supporting Files */,
+			);
+			path = "GPP CalculatorTests";
+			sourceTree = "<group>";
+		};
+		70919ADD1B14471500759FF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70919ADE1B14471500759FF8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70919AC31B14471400759FF8 /* GPP Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70919AE31B14471500759FF8 /* Build configuration list for PBXNativeTarget "GPP Calculator" */;
+			buildPhases = (
+				70919AC01B14471400759FF8 /* Sources */,
+				70919AC11B14471400759FF8 /* Frameworks */,
+				70919AC21B14471400759FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPP Calculator";
+			productName = "GPP Calculator";
+			productReference = 70919AC41B14471400759FF8 /* GPP Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		70919AD81B14471500759FF8 /* GPP CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70919AE61B14471500759FF8 /* Build configuration list for PBXNativeTarget "GPP CalculatorTests" */;
+			buildPhases = (
+				70919AD51B14471500759FF8 /* Sources */,
+				70919AD61B14471500759FF8 /* Frameworks */,
+				70919AD71B14471500759FF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				70919ADB1B14471500759FF8 /* PBXTargetDependency */,
+			);
+			name = "GPP CalculatorTests";
+			productName = "GPP CalculatorTests";
+			productReference = 70919AD91B14471500759FF8 /* GPP CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70919ABC1B14471400759FF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Arash Namvar";
+				TargetAttributes = {
+					70919AC31B14471400759FF8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					70919AD81B14471500759FF8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 70919AC31B14471400759FF8;
+					};
+				};
+			};
+			buildConfigurationList = 70919ABF1B14471400759FF8 /* Build configuration list for PBXProject "GPP Calculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 70919ABB1B14471400759FF8;
+			productRefGroup = 70919AC51B14471400759FF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70919AC31B14471400759FF8 /* GPP Calculator */,
+				70919AD81B14471500759FF8 /* GPP CalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70919AC21B14471400759FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70919ACF1B14471500759FF8 /* Main.storyboard in Resources */,
+				70919AD41B14471500759FF8 /* LaunchScreen.xib in Resources */,
+				70919AD11B14471500759FF8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70919AD71B14471500759FF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70919AC01B14471400759FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70919ACC1B14471500759FF8 /* ViewController.swift in Sources */,
+				70919ACA1B14471400759FF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70919AD51B14471500759FF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70919AE01B14471500759FF8 /* GPP_CalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		70919ADB1B14471500759FF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 70919AC31B14471400759FF8 /* GPP Calculator */;
+			targetProxy = 70919ADA1B14471500759FF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		70919ACD1B14471500759FF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70919ACE1B14471500759FF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		70919AD21B14471500759FF8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				70919AD31B14471500759FF8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		70919AE11B14471500759FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		70919AE21B14471500759FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		70919AE41B14471500759FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GPP Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70919AE51B14471500759FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GPP Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70919AE71B14471500759FF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GPP CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPP Calculator.app/GPP Calculator";
+			};
+			name = Debug;
+		};
+		70919AE81B14471500759FF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GPP CalculatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPP Calculator.app/GPP Calculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70919ABF1B14471400759FF8 /* Build configuration list for PBXProject "GPP Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70919AE11B14471500759FF8 /* Debug */,
+				70919AE21B14471500759FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70919AE31B14471500759FF8 /* Build configuration list for PBXNativeTarget "GPP Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70919AE41B14471500759FF8 /* Debug */,
+				70919AE51B14471500759FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		70919AE61B14471500759FF8 /* Build configuration list for PBXNativeTarget "GPP CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70919AE71B14471500759FF8 /* Debug */,
+				70919AE81B14471500759FF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70919ABC1B14471400759FF8 /* Project object */;
+}
