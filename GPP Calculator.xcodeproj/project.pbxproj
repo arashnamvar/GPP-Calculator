@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		70919ACA1B14471400759FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70919AC91B14471400759FF8 /* AppDelegate.swift */; };
-		70919ACC1B14471500759FF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70919ACB1B14471400759FF8 /* ViewController.swift */; };
-		70919ACF1B14471500759FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70919ACD1B14471500759FF8 /* Main.storyboard */; };
-		70919AD11B14471500759FF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70919AD01B14471500759FF8 /* Images.xcassets */; };
-		70919AD41B14471500759FF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70919AD21B14471500759FF8 /* LaunchScreen.xib */; };
 		70919AE01B14471500759FF8 /* GPP_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70919ADF1B14471500759FF8 /* GPP_CalculatorTests.swift */; };
+		70919AF21B14472900759FF8 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70919AE91B14472900759FF8 /* MainViewController.swift */; };
+		70919AF31B14472900759FF8 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70919AEA1B14472900759FF8 /* MenuViewController.swift */; };
+		70919AF41B14472900759FF8 /* MenuTransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70919AEB1B14472900759FF8 /* MenuTransitionManager.swift */; };
+		70919AF51B14472900759FF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70919AEC1B14472900759FF8 /* Main.storyboard */; };
+		70919AF61B14472900759FF8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 70919AED1B14472900759FF8 /* logo.png */; };
+		70919AF71B14472900759FF8 /* hamb1.png in Resources */ = {isa = PBXBuildFile; fileRef = 70919AEE1B14472900759FF8 /* hamb1.png */; };
+		70919AF81B14472900759FF8 /* HelveticaNeue.dfont in Resources */ = {isa = PBXBuildFile; fileRef = 70919AEF1B14472900759FF8 /* HelveticaNeue.dfont */; };
+		70919AF91B14472900759FF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70919AF01B14472900759FF8 /* Images.xcassets */; };
+		70919AFA1B14472900759FF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70919AF11B14472900759FF8 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +34,18 @@
 		70919AC41B14471400759FF8 /* GPP Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPP Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70919AC81B14471400759FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70919AC91B14471400759FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70919ACB1B14471400759FF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		70919ACE1B14471500759FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		70919AD01B14471500759FF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		70919AD31B14471500759FF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		70919AD91B14471500759FF8 /* GPP CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GPP CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70919ADE1B14471500759FF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70919ADF1B14471500759FF8 /* GPP_CalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPP_CalculatorTests.swift; sourceTree = "<group>"; };
+		70919AE91B14472900759FF8 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		70919AEA1B14472900759FF8 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		70919AEB1B14472900759FF8 /* MenuTransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTransitionManager.swift; sourceTree = "<group>"; };
+		70919AEC1B14472900759FF8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		70919AED1B14472900759FF8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		70919AEE1B14472900759FF8 /* hamb1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hamb1.png; sourceTree = "<group>"; };
+		70919AEF1B14472900759FF8 /* HelveticaNeue.dfont */ = {isa = PBXFileReference; lastKnownFileType = file; path = HelveticaNeue.dfont; sourceTree = "<group>"; };
+		70919AF01B14472900759FF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		70919AF11B14472900759FF8 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +88,15 @@
 			isa = PBXGroup;
 			children = (
 				70919AC91B14471400759FF8 /* AppDelegate.swift */,
-				70919ACB1B14471400759FF8 /* ViewController.swift */,
-				70919ACD1B14471500759FF8 /* Main.storyboard */,
-				70919AD01B14471500759FF8 /* Images.xcassets */,
-				70919AD21B14471500759FF8 /* LaunchScreen.xib */,
+				70919AE91B14472900759FF8 /* MainViewController.swift */,
+				70919AEA1B14472900759FF8 /* MenuViewController.swift */,
+				70919AEB1B14472900759FF8 /* MenuTransitionManager.swift */,
+				70919AEC1B14472900759FF8 /* Main.storyboard */,
+				70919AED1B14472900759FF8 /* logo.png */,
+				70919AEE1B14472900759FF8 /* hamb1.png */,
+				70919AEF1B14472900759FF8 /* HelveticaNeue.dfont */,
+				70919AF01B14472900759FF8 /* Images.xcassets */,
+				70919AF11B14472900759FF8 /* LaunchScreen.xib */,
 				70919AC71B14471400759FF8 /* Supporting Files */,
 			);
 			path = "GPP Calculator";
@@ -192,9 +207,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70919ACF1B14471500759FF8 /* Main.storyboard in Resources */,
-				70919AD41B14471500759FF8 /* LaunchScreen.xib in Resources */,
-				70919AD11B14471500759FF8 /* Images.xcassets in Resources */,
+				70919AF61B14472900759FF8 /* logo.png in Resources */,
+				70919AF91B14472900759FF8 /* Images.xcassets in Resources */,
+				70919AF51B14472900759FF8 /* Main.storyboard in Resources */,
+				70919AF81B14472900759FF8 /* HelveticaNeue.dfont in Resources */,
+				70919AFA1B14472900759FF8 /* LaunchScreen.xib in Resources */,
+				70919AF71B14472900759FF8 /* hamb1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70919ACC1B14471500759FF8 /* ViewController.swift in Sources */,
 				70919ACA1B14471400759FF8 /* AppDelegate.swift in Sources */,
+				70919AF41B14472900759FF8 /* MenuTransitionManager.swift in Sources */,
+				70919AF31B14472900759FF8 /* MenuViewController.swift in Sources */,
+				70919AF21B14472900759FF8 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +254,6 @@
 			targetProxy = 70919ADA1B14471500759FF8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		70919ACD1B14471500759FF8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70919ACE1B14471500759FF8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		70919AD21B14471500759FF8 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70919AD31B14471500759FF8 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		70919AE11B14471500759FF8 /* Debug */ = {
